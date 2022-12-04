@@ -1,12 +1,14 @@
-import { useState } from 'react'
-
+import { StyledMain } from './setup/styled-components/styled_component';
+import GlobalStyle from './setup/styled-components/GlobalStyle';
 function App() {
 
-  return (
-    <div className="App">
-   Main
-    </div>
-  )
+  return(
+
+    <>
+   <GlobalStyle />
+   <StyledMain>Main</StyledMain>
+</>
+);
 }
 
 export default App
